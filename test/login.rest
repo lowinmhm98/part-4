@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/login HTTP/1.1
+Content-Type: application/json
+Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWQiOiI2MzQ3MTliZTBjOTNiZDk1NWRlYjEyOTIiLCJpYXQiOjE2NjU2NzIyMDgsImV4cCI6MTY2NTY3NTgwOH0.3oRHA-voElCtKDxryFd3V0F3tQks2fhUmEf3v38m2bM"
+
+
+{ 
+      
+   
+    
+    "username": "testuser",
+    "password": "12345"
+
+}
